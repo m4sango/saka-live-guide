@@ -1,268 +1,270 @@
 {
-  "first": [
-    {
-      "name": "秋元真夏",
-      "color1": "pink",
-      "color2": "red",
-      "callName": "まなつ"
-    },
-    {
-      "name": "生田絵梨花",
-      "color1": "yellow",
-      "color2": "yellow",
-      "callName": "いくちゃん"
-    },
-    {
-      "name": "井上小百合",
-      "color1": "white",
-      "color2": "white",
-      "callName": "さゆにゃん"
-    },
-    {
-      "name": "齋藤飛鳥",
-      "color1": "white",
-      "color2": "light_blue",
-      "callName": "あすか"
-    },
-    {
-      "name": "白石麻衣",
-      "color1": "light_blue",
-      "color2": "light_blue",
-      "callName": "まいやん"
-    },
-    {
-      "name": "高山一実",
-      "color1": "light_blue",
-      "color2": "pink",
-      "callName": "かずみん"
-    },
-    {
-      "name": "中田花奈",
-      "color1": "black",
-      "color2": "white",
-      "callName": "かなりん"
-    },
-    {
-      "name": "樋口日奈",
-      "color1": "purple",
-      "color2": "orange",
-      "callName": "ひなちー"
-    },
-    {
-      "name": "星野みなみ",
-      "color1": "white",
-      "color2": "white",
-      "callName": "みなみ"
-    },
-    {
-      "name": "松村沙友里",
-      "color1": "red",
-      "color2": "red",
-      "callName": "さゆりん"
-    },
-    {
-      "name": "和田まあや",
-      "color1": "yellow",
-      "color2": "orange",
-      "callName": "まあや"
-    }
-  ],
-  "second": [
-    {
-      "name": "伊藤純奈",
-      "color1": "pink",
-      "color2": "light_blue",
-      "callName": "じゅんな"
-    },
-    {
-      "name": "北野日奈子",
-      "color1": "pink",
-      "color2": "yellow_green",
-      "callName": "ひなこ"
-    },
-    {
-      "name": "佐々木琴子",
-      "color1": "blue",
-      "color2": "green",
-      "callName": "ことこ"
-    },
-    {
-      "name": "新内眞衣",
-      "color1": "blue",
-      "color2": "purple",
-      "callName": "まいちゅん"
-    },
-    {
-      "name": "鈴木絢音",
-      "color1": "white",
-      "color2": "purple",
-      "callName": "あやね"
-    },
-    {
-      "name": "寺田蘭世",
-      "color1": "red",
-      "color2": "white",
-      "callName": "らんぜ"
-    },
-    {
-      "name": "堀未央奈",
-      "color1": "orange",
-      "color2": "white",
-      "callName": "みおな"
-    },
-    {
-      "name": "山崎怜奈",
-      "color1": "yellow",
-      "color2": "white",
-      "callName": "れなち"
-    },
-    {
-      "name": "渡辺みり愛",
-      "color1": "yellow",
-      "color2": "yellow_green",
-      "callName": "みりあ"
-    }
-  ],
-  "third": [
-    {
-      "name": "伊藤理々杏",
-      "color1": "purple",
-      "color2": "red",
-      "callName": "りりあ"
-    },
-    {
-      "name": "岩本蓮加",
-      "color1": "red",
-      "color2": "pink",
-      "callName": "れんたん"
-    },
-    {
-      "name": "梅澤美波",
-      "color1": "blue",
-      "color2": "light_blue",
-      "callName": "みなみん"
-    },
-    {
-      "name": "大園桃子",
-      "color1": "pink",
-      "color2": "green",
-      "callName": "ももこ"
-    },
-    {
-      "name": "久保史織里",
-      "color1": "light_blue",
-      "color2": "yellow",
-      "callName": "しおり"
-    },
-    {
-      "name": "阪口珠美",
-      "color1": "purple",
-      "color2": "yellow",
-      "callName": "たまちゃん"
-    },
-    {
-      "name": "佐藤楓",
-      "color1": "red",
-      "color2": "red",
-      "callName": "でんちゃん"
-    },
-    {
-      "name": "中村麗乃",
-      "color1": "blue",
-      "color2": "white",
-      "callName": "れのちゃん"
-    },
-    {
-      "name": "向井葉月",
-      "color1": "yellow",
-      "color2": "yellow",
-      "callName": "はづき"
-    },
-    {
-      "name": "山下美月",
-      "color1": "blue",
-      "color2": "yellow",
-      "callName": "みづき"
-    },
-    {
-      "name": "吉田綾乃クリスティー",
-      "color1": "pink",
-      "color2": "purple",
-      "callName": "あやてぃー"
-    },
-    {
-      "name": "与田祐希",
-      "color1": "red",
-      "color2": "green",
-      "callName": "よだちゃん"
-    }
-  ],
-  "fourth": [
-    {
-      "name": "遠藤さくら",
-      "color1": "pink",
-      "color2": "white",
-      "callName": "さくら"
-    },
-    {
-      "name": "賀喜遥香",
-      "color1": "orange",
-      "color2": "green",
-      "callName": "かっきー"
-    },
-    {
-      "name": "掛橋沙耶香",
-      "color1": "pink",
-      "color2": "orange",
-      "callName": "さぁちゃん"
-    },
-    {
-      "name": "金川紗耶",
-      "color1": "light_blue",
-      "color2": "red",
-      "callName": "やんちゃん"
-    },
-    {
-      "name": "北川悠理",
-      "color1": "light_blue",
-      "color2": "orange",
-      "callName": "ゆりちゃん"
-    },
-    {
-      "name": "柴田柚菜",
-      "color1": "blue",
-      "color2": "yellow_green",
-      "callName": "ゆんちゃん"
-    },
-    {
-      "name": "清宮レイ",
-      "color1": "orange",
-      "color2": "orange",
-      "callName": "レイちゃん"
-    },
-    {
-      "name": "田村真佑",
-      "color1": "light_blue",
-      "color2": "purple",
-      "callName": "まゆたん"
-    },
-    {
-      "name": "筒井あやめ",
-      "color1": "purple",
-      "color2": "purple",
-      "callName": "あやめん"
-    },
-    {
-      "name": "早川聖来",
-      "color1": "blue",
-      "color2": "blue",
-      "callName": "せいら"
-    },
-    {
-      "name": "矢久保美緒",
-      "color1": "pink",
-      "color2": "yellow",
-      "callName": "やくぼ"
-    }
+  "allMember": [
+    [
+      {
+        "name": "秋元真夏",
+        "color1": "pink",
+        "color2": "red",
+        "callName": "まなつ"
+      },
+      {
+        "name": "生田絵梨花",
+        "color1": "yellow",
+        "color2": "yellow",
+        "callName": "いくちゃん"
+      },
+      {
+        "name": "井上小百合",
+        "color1": "white",
+        "color2": "white",
+        "callName": "さゆにゃん"
+      },
+      {
+        "name": "齋藤飛鳥",
+        "color1": "white",
+        "color2": "light_blue",
+        "callName": "あすか"
+      },
+      {
+        "name": "白石麻衣",
+        "color1": "light_blue",
+        "color2": "light_blue",
+        "callName": "まいやん"
+      },
+      {
+        "name": "高山一実",
+        "color1": "light_blue",
+        "color2": "pink",
+        "callName": "かずみん"
+      },
+      {
+        "name": "中田花奈",
+        "color1": "black",
+        "color2": "white",
+        "callName": "かなりん"
+      },
+      {
+        "name": "樋口日奈",
+        "color1": "purple",
+        "color2": "orange",
+        "callName": "ひなちー"
+      },
+      {
+        "name": "星野みなみ",
+        "color1": "white",
+        "color2": "white",
+        "callName": "みなみ"
+      },
+      {
+        "name": "松村沙友里",
+        "color1": "red",
+        "color2": "red",
+        "callName": "さゆりん"
+      },
+      {
+        "name": "和田まあや",
+        "color1": "yellow",
+        "color2": "orange",
+        "callName": "まあや"
+      }
+    ],
+    [
+      {
+        "name": "伊藤純奈",
+        "color1": "pink",
+        "color2": "light_blue",
+        "callName": "じゅんな"
+      },
+      {
+        "name": "北野日奈子",
+        "color1": "pink",
+        "color2": "yellow_green",
+        "callName": "ひなこ"
+      },
+      {
+        "name": "佐々木琴子",
+        "color1": "blue",
+        "color2": "green",
+        "callName": "ことこ"
+      },
+      {
+        "name": "新内眞衣",
+        "color1": "blue",
+        "color2": "purple",
+        "callName": "まいちゅん"
+      },
+      {
+        "name": "鈴木絢音",
+        "color1": "white",
+        "color2": "purple",
+        "callName": "あやね"
+      },
+      {
+        "name": "寺田蘭世",
+        "color1": "red",
+        "color2": "white",
+        "callName": "らんぜ"
+      },
+      {
+        "name": "堀未央奈",
+        "color1": "orange",
+        "color2": "white",
+        "callName": "みおな"
+      },
+      {
+        "name": "山崎怜奈",
+        "color1": "yellow",
+        "color2": "white",
+        "callName": "れなち"
+      },
+      {
+        "name": "渡辺みり愛",
+        "color1": "yellow",
+        "color2": "yellow_green",
+        "callName": "みりあ"
+      }
+    ],
+    [
+      {
+        "name": "伊藤理々杏",
+        "color1": "purple",
+        "color2": "red",
+        "callName": "りりあ"
+      },
+      {
+        "name": "岩本蓮加",
+        "color1": "red",
+        "color2": "pink",
+        "callName": "れんたん"
+      },
+      {
+        "name": "梅澤美波",
+        "color1": "blue",
+        "color2": "light_blue",
+        "callName": "みなみん"
+      },
+      {
+        "name": "大園桃子",
+        "color1": "pink",
+        "color2": "green",
+        "callName": "ももこ"
+      },
+      {
+        "name": "久保史織里",
+        "color1": "light_blue",
+        "color2": "yellow",
+        "callName": "しおり"
+      },
+      {
+        "name": "阪口珠美",
+        "color1": "purple",
+        "color2": "yellow",
+        "callName": "たまちゃん"
+      },
+      {
+        "name": "佐藤楓",
+        "color1": "red",
+        "color2": "red",
+        "callName": "でんちゃん"
+      },
+      {
+        "name": "中村麗乃",
+        "color1": "blue",
+        "color2": "white",
+        "callName": "れのちゃん"
+      },
+      {
+        "name": "向井葉月",
+        "color1": "yellow",
+        "color2": "yellow",
+        "callName": "はづき"
+      },
+      {
+        "name": "山下美月",
+        "color1": "blue",
+        "color2": "yellow",
+        "callName": "みづき"
+      },
+      {
+        "name": "吉田綾乃クリスティー",
+        "color1": "pink",
+        "color2": "purple",
+        "callName": "あやてぃー"
+      },
+      {
+        "name": "与田祐希",
+        "color1": "red",
+        "color2": "green",
+        "callName": "よだちゃん"
+      }
+    ],
+    [
+      {
+        "name": "遠藤さくら",
+        "color1": "pink",
+        "color2": "white",
+        "callName": "さくら"
+      },
+      {
+        "name": "賀喜遥香",
+        "color1": "orange",
+        "color2": "green",
+        "callName": "かっきー"
+      },
+      {
+        "name": "掛橋沙耶香",
+        "color1": "pink",
+        "color2": "orange",
+        "callName": "さぁちゃん"
+      },
+      {
+        "name": "金川紗耶",
+        "color1": "light_blue",
+        "color2": "red",
+        "callName": "やんちゃん"
+      },
+      {
+        "name": "北川悠理",
+        "color1": "light_blue",
+        "color2": "orange",
+        "callName": "ゆりちゃん"
+      },
+      {
+        "name": "柴田柚菜",
+        "color1": "blue",
+        "color2": "yellow_green",
+        "callName": "ゆんちゃん"
+      },
+      {
+        "name": "清宮レイ",
+        "color1": "orange",
+        "color2": "orange",
+        "callName": "レイちゃん"
+      },
+      {
+        "name": "田村真佑",
+        "color1": "light_blue",
+        "color2": "purple",
+        "callName": "まゆたん"
+      },
+      {
+        "name": "筒井あやめ",
+        "color1": "purple",
+        "color2": "purple",
+        "callName": "あやめん"
+      },
+      {
+        "name": "早川聖来",
+        "color1": "blue",
+        "color2": "blue",
+        "callName": "せいら"
+      },
+      {
+        "name": "矢久保美緒",
+        "color1": "pink",
+        "color2": "yellow",
+        "callName": "やくぼ"
+      }
+    ]
   ]
 }

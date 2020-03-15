@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:saka_live_guide/model/bottom_tab_item.dart';
+import 'package:saka_live_guide/model/saka_group.dart';
+import 'package:saka_live_guide/screens/select_menu_screen.dart';
 
 class TabNavigatorRoutes {
   static const String nogi = '/nogi';
@@ -13,7 +14,7 @@ class TabNavigator extends StatelessWidget {
   TabNavigator({this.navigatorKey, this.tabItem});
 
   final GlobalKey<NavigatorState> navigatorKey;
-  final TabItem tabItem;
+  final SakaGroup tabItem;
 
   /// 次の画面に遷移する。
   void push(BuildContext context, Widget next) {
@@ -27,18 +28,19 @@ class TabNavigator extends StatelessWidget {
 
   /// 各タブのルート
   Map<String, WidgetBuilder> _routeBuilders() {
-    // TODO: 各ページ
     return {
-      TabNavigatorRoutes.nogi: (context) => Text("nogi"),
-      TabNavigatorRoutes.keyaki: (context) => Text("keyaki"),
-      TabNavigatorRoutes.hinata: (context) => Text("hinata"),
+      TabNavigatorRoutes.nogi: (context) => SelectMenuScreen(SakaGroup.nogi),
+      TabNavigatorRoutes.keyaki: (context) =>
+          SelectMenuScreen(SakaGroup.keyaki),
+      TabNavigatorRoutes.hinata: (context) =>
+          SelectMenuScreen(SakaGroup.hinata),
     };
   }
 
-  final Map<TabItem, String> _tabItemRoutes = {
-    TabItem.nogi: TabNavigatorRoutes.nogi,
-    TabItem.keyaki: TabNavigatorRoutes.keyaki,
-    TabItem.hinata: TabNavigatorRoutes.hinata,
+  final Map<SakaGroup, String> _tabItemRoutes = {
+    SakaGroup.nogi: TabNavigatorRoutes.nogi,
+    SakaGroup.keyaki: TabNavigatorRoutes.keyaki,
+    SakaGroup.hinata: TabNavigatorRoutes.hinata,
   };
 
   @override
