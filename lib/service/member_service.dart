@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
+import 'package:saka_live_guide/model/saka_group.dart';
 import 'package:saka_live_guide/service/model/response/all_member.dart';
 
 class MemberService {
@@ -8,14 +9,15 @@ class MemberService {
 
   factory MemberService() => _instance;
 
+  final Map<SakaGroup, String> filePathMap = {
+    SakaGroup.nogi: "resources/static/nogizaka_member_call.json"
+  };
+
   MemberService._internal();
 
-  Future<AllMember> getAllMember(String filePath) async {
-//    String loadData = await rootBundle
-//        .loadString('resources/static/nogizaka_member_call.json');
-    String loadData = await rootBundle.loadString(filePath);
-    Map json = jsonDecode(loadData);
-
-    return AllMember.fromJson(json["allMember"]);
+  Future<AllMember> getAllMember(SakaGroup group) async {
+    String loadData = await rootBundle.loadString(filePathMap[group]);
+    Map map = json.decode(loadData);
+    return AllMember.fromJson(map["allMember"]);
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:saka_live_guide/model/saka_group.dart';
+import 'package:saka_live_guide/screens/member_list_screen.dart';
 
 class SelectMenuScreen extends StatelessWidget {
   final SakaGroup _selectedGroup;
@@ -41,8 +42,14 @@ class SelectMenuScreen extends StatelessWidget {
                       color: Colors.green[100],
                       alignment: Alignment.center,
                     ),
-                    // TODO: onTapアクション実装
-                    onTap: () => {print('on tped')},
+                    onTap: () => {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                MemberListScreen(_selectedGroup)),
+                      )
+                    },
                   ),
                 ),
                 GridTile(

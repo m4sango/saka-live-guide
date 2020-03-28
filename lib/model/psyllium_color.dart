@@ -50,6 +50,7 @@ class PsylliumColorHelper {
   final Map<PsylliumColor, _ColorInfo> _colorInfos = {
     PsylliumColor.white: new _ColorInfo(Colors.white, "白"),
     PsylliumColor.orange: new _ColorInfo(Colors.orange, "橙"),
+    PsylliumColor.blue: new _ColorInfo(Colors.blue, "青"),
     PsylliumColor.yellow: new _ColorInfo(Colors.yellow, "黄"),
     PsylliumColor.purple: new _ColorInfo(Colors.purple, "紫"),
     PsylliumColor.green: new _ColorInfo(Colors.green, "緑"),
