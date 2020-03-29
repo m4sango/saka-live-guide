@@ -4,11 +4,10 @@ import 'package:saka_live_guide/screens/member_list_screen.dart';
 
 class SelectMenuScreen extends StatelessWidget {
   final SakaGroup _selectedGroup;
-  SakaGroupHelper _selectedGroupHelper;
+  final SakaGroupHelper _selectedGroupHelper;
 
-  SelectMenuScreen(this._selectedGroup) {
-    _selectedGroupHelper = SakaGroupHelper(_selectedGroup);
-  }
+  SelectMenuScreen(this._selectedGroup)
+      : _selectedGroupHelper = SakaGroupHelper(_selectedGroup);
 
   @override
   Widget build(BuildContext context) {
